@@ -1,0 +1,6 @@
+.vs
+*.pyc
+*.user
+obj
+bin
+payload*.txt

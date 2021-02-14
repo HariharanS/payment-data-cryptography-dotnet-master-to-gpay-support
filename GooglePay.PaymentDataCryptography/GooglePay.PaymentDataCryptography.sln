@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GooglePay.PaymentDataCryptography", "GooglePay.PaymentDataCryptography.csproj", "{2CB7A61F-A7A1-43C2-93DA-CE0D05E4E96B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caller", "..\Caller\Caller.csproj", "{7AE3D142-E885-43FD-98CE-ACA6DBA45E7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CB7A61F-A7A1-43C2-93DA-CE0D05E4E96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB7A61F-A7A1-43C2-93DA-CE0D05E4E96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB7A61F-A7A1-43C2-93DA-CE0D05E4E96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB7A61F-A7A1-43C2-93DA-CE0D05E4E96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE3D142-E885-43FD-98CE-ACA6DBA45E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE3D142-E885-43FD-98CE-ACA6DBA45E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE3D142-E885-43FD-98CE-ACA6DBA45E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE3D142-E885-43FD-98CE-ACA6DBA45E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1700A2E1-BC27-4BC5-A5A9-76DFC1F2C856}
+	EndGlobalSection
+EndGlobal
