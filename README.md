@@ -1,4 +1,4 @@
-# Google Pay - payment data cryptography in C#
+# Google Pay - payment data cryptography in C# ( This is a copy of GitHub repo https://github.com/google-pay/payment-data-cryptography-dotnet )
 
 ## Overview
 
