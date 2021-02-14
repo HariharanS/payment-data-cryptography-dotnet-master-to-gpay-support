@@ -27,3 +27,26 @@ This is not an official Google product.
 [Tink](https://github.com/google/tink) is the library actively maintained and
 supported by the Google Pay team. Using Tink to perform payment data
 cryptography for Google Pay is highly recommended.
+
+## Caller Project 
+It was added to call the sample implementation API to decrypt the payload
+```
+// openssl pkcs8 -topk8 -inform PEM -outform DER -in key.pem -nocrypt | base64 | paste -sd "\0" -
+        private const string base64PrivateKey = "";
+
+        static void Main(string[] args)
+        {
+            //load the decrypted payload
+            string payload1 = File.ReadAllText("payload1.txt");
+            //true -> test, leave empty in prodcde
+            var keyProvider = new GoogleKeyProvider(true);
+
+            var parser = new PaymentMethodTokenRecipient("gateway:eway", keyProvider);
+
+            parser.AddPrivateKey(base64PrivateKey);
+
+            var plainText = parser.Unseal(payload1);
+
+            Console.WriteLine(plainText);
+        }
+```
